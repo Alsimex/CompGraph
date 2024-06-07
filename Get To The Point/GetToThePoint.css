@@ -1,0 +1,30 @@
+canvas {
+	border-style: outset;
+	border-width: thick;
+	border-color: #d5d5d5;
+	background-color: #e5e5e5;
+}
+.button {
+	border-style: outset;
+	border-width: thick;
+	border-color: #d5d5d5;
+	background-color: #e5e5e5;
+}
+.button:active {
+	border-style: inset;
+}
+.button:hover {
+	background-color: #d5d5d5;
+	border-color: #c3c3c3;
+}
+.button1 {
+	width: 148px;
+}
+div {
+	text-align: center;
+	width: 512px;
+	border-style: outset;
+	border-width: thick;
+	border-color: #d5d5d5;
+	background-color: #e5e5e5;
+}

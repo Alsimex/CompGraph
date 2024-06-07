@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Get To The Point!</title>
+	<link rel="stylesheet" href="GetToThePoint.css">
+  </head>
+
+  <body onload="main()">
+	
+	<div>Click the points as fast as you can!</div>
+	<br>
+	
+    <canvas id="webgl" width="512" height="512">
+    Please use a browser that supports "canvas"
+    </canvas>
+
+    <script src="../lib/webgl-utils.js"></script>
+    <script src="../lib/webgl-debug.js"></script>
+    <script src="../lib/cuon-utils.js"></script>
+    <script type="text/javascript" src="GetToThePoint.js"></script>
+
+	<br>
+	<br>
+	<button class="button">&nbsp;</button>
+	<button class="button">&emsp;&nbsp;</button>
+	<button class="button">&emsp;&emsp;&ensp;</button>
+	<button class="button">&gt;&gt;&gt;&gt;</button>
+	
+	<button id="button1" value="start" class="button button1" onclick="startGame()">Click here to start!</button>
+	
+	<button class="button">&lt;&lt;&lt;&lt;</button>
+	<button class="button">&emsp;&emsp;&ensp;</button>
+	<button class="button">&emsp;&nbsp;</button>
+	<button class="button">&nbsp;</button>
+	
+  </body>
+</html>
